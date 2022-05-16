@@ -1,10 +1,10 @@
-$current-font: Roboto, sans-serif;
-$logo-font: Raleway, sans-serif;
+$current-font:  'M PLUS Rounded 1c', sans-serif;
+$logo-font:  'M PLUS Rounded 1c', sans-serif;
 
 $main-title-color: #ffffff;
 $third-text-color: #000000;
-$main-site-section: #2f303a;
-$about-text-bgc: rgba(47, 48, 58, 0.8);
+$main-site-section: #212121;
+$about-text-bgc: #212121;
 $thumb-background-color: #f5f4fa;
 
 $line-color: #ececec;
@@ -13,7 +13,7 @@ $border-color: #eeeeee;
 $first-text-color: #757575;
 $second-title-color: #212121;
 $current-placeholder-color: rgba(117, 117, 117, 0.5);
-$accent-color: #2196f3;
+$accent-color: #7594C2;
 $btn-accent-color: #188ce8;
 
 $social-link-color: #afb1b8;
@@ -28,8 +28,10 @@ $duration: 250ms;
 $function: cubic-bezier(0.4, 0, 0.2, 1);
 
 :root {
-    --current-font: Roboto, sans-serif;
-    --logo-font: Raleway, sans-serif;
+    --current-font: Rounded Mplus 1c,
+      sans-serif;
+    --logo-font: Rounded Mplus 1c,
+      sans-serif;
     --main-title-color: #ffffff;
     --second-title-color: #212121;
     --first-text-color: #757575;

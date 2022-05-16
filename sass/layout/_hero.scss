@@ -51,12 +51,22 @@
   }
 
   .hero__title {
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    // font-weight: 900;
+    // font-size: 26px;
+    // line-height: 1.62;
+    // text-align: center;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
+
+    font-style: normal;
+      font-weight: 900;
+      font-size: 55px;
+      line-height: 60px;
+      /* or 109% */
+    
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
     color: var(--main-title-color);
 
     @media screen and (min-width: 1200px) {
