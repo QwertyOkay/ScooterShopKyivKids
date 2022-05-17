@@ -330,13 +330,13 @@ img {
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #757575;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #757575;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .container {
@@ -574,12 +574,12 @@ body {
 }
 
 .button__hero:hover {
-  color: #ffffff;
+  color: white;
   background-color: #7594C2;
 }
 
 .button__hero:focus {
-  color: #ffffff;
+  color: white;
 }
 
 .button__send {
@@ -614,7 +614,7 @@ body {
 
 .button__filter:hover, .button__filter:focus {
   background-color: #7594C2;
-  color: #ffffff;
+  color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -626,7 +626,7 @@ body {
 
 .button__filter--current {
   background-color: #7594C2;
-  color: #ffffff;
+  color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -790,9 +790,10 @@ body {
 }
 
 .social__item {
-  width: 44px;
-  height: 44px;
+  width: 70px;
+  height: 70px;
   margin-left: 10px;
+  margin-top: 15px;
 }
 
 .social__item:first-child {
@@ -1007,7 +1008,7 @@ body {
 }
 
 .mob-menu {
-  background-color: #ffffff;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -1454,7 +1455,7 @@ body {
   left: 0;
   overflow: auto;
   background-color: rgba(33, 150, 243, 0.9);
-  color: #ffffff;
+  color: white;
   padding: 20px 24px;
   font-weight: 400;
   font-size: 18px;
@@ -1476,6 +1477,7 @@ body {
   width: 100%;
   display: block;
   margin: 0 auto;
+  background-color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -1487,12 +1489,15 @@ body {
 @media screen and (min-width: 1200px) {
   .header {
     max-width: 1200px;
+    width: 100%;
   }
 }
 
 .header__container {
   display: flex;
   align-items: center;
+  background-color: white;
+  width: 100%;
 }
 
 .navigation {
@@ -1502,7 +1507,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: white;
   display: none;
 }
 
@@ -1523,6 +1528,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  background-color: white;
 }
 
 .navigation__list li:nth-child(n + 2) {
@@ -1574,7 +1580,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  background: #212121;
+  background-color: white;
   height: 400px;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-1x.jpg);
@@ -1644,6 +1650,26 @@ body {
   }
 }
 
+.text-button {
+  width: 356px;
+  height: 31px;
+  left: 637px;
+  top: 437px;
+  margin-top: 30px;
+  font-family: M PLUS Rounded 1c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 125% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
 .feature__list {
   list-style: none;
 }
@@ -1677,6 +1703,7 @@ body {
   .feature__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .feature__list li {
     flex-basis: calc(100% / 4 - 30px);
@@ -1688,7 +1715,8 @@ body {
 }
 
 .feature__subtitle {
-  justify-content: flex-start;
+  display: flex;
+  justify-content: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -1707,6 +1735,9 @@ body {
 }
 
 .text__feature {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -1744,6 +1775,99 @@ body {
   height: 70px;
   display: inline-block;
   fill: currentColor;
+}
+
+.feature {
+  background-color: white;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 118px 0;
+  background-position: center;
+}
+
+@media (min-resolution: 2dppx) {
+  .feature {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-tab-1x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .feature {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-tab-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 600px;
+    background-image: url(../images/back.png);
+    padding-top: 200px;
+    background-color: #E9F2FF;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .feature {
+    background-image: url(../images/back.png);
+    background-color: #E9F2FF;
+  }
+}
+
+.feature__content {
+  display: block;
+}
+
+.feature__list0 {
+  list-style: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__list0 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-bottom: 50px;
+  }
+}
+
+.feature__p {
+  width: 670px;
+  height: 540px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  letter-spacing: 0.06em;
+  color: #000000;
+  padding-right: 70px;
+}
+
+.feature__p2 {
+  width: 670px;
+  height: 540px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  letter-spacing: 0.06em;
+  color: #000000;
+  padding: 75px 0px 200px 200px;
 }
 
 .section--no-padding-top {
@@ -2043,7 +2167,7 @@ body {
 
 .portfolio__item {
   display: block;
-  background-color: #ffffff;
+  background-color: white;
   margin-bottom: 30px;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
