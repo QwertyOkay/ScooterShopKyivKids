@@ -271,7 +271,7 @@ summary {
   --accent-color: #2196f3;
   --btn-accent-color: #188ce8;
   --main-site-section: #2f303a;
-  --thumb-background-color: #f5f4fa;
+  --thumb-background-color: white;
   --line-color: #ececec;
   --border-color: #eeeeee;
   --current-placeholder-color: rgba(117, 117, 117, 0.5);
@@ -489,8 +489,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  line-height: 1;
+  letter-spacing: 0.06em;
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 20px;
@@ -500,7 +500,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 0.9;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -1612,7 +1612,6 @@ body {
 @media screen and (min-width: 1200px) {
   .hero {
     width: 100%;
-    max-width: 1600px;
     min-height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-note-1x.jpg);
     padding-top: 200px;
@@ -1755,6 +1754,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1783,7 +1783,7 @@ body {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 118px 0;
+  padding: 94px 0;
   background-position: center;
 }
 
@@ -1809,11 +1809,10 @@ body {
 @media screen and (min-width: 1200px) {
   .feature {
     width: 100%;
-    max-width: 1600px;
     min-height: 600px;
     background-image: url(../images/back.png);
-    padding-top: 200px;
     background-color: #E9F2FF;
+    background-size: cover;
   }
 }
 
@@ -1826,6 +1825,7 @@ body {
 
 .feature__content {
   display: block;
+  padding-top: 44px;
 }
 
 .feature__list0 {
@@ -1838,7 +1838,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
-    padding-bottom: 50px;
+    padding-bottom: 95px;
   }
 }
 
@@ -1867,7 +1867,7 @@ body {
   /* or 125% */
   letter-spacing: 0.06em;
   color: #000000;
-  padding: 75px 0px 200px 200px;
+  padding-left: 70px;
 }
 
 .section--no-padding-top {
@@ -1922,7 +1922,43 @@ body {
 }
 
 .section--background-color {
-  background-color: #f5f4fa;
+  background-color: #E9F2FF;
+  background-image: url(../images/catalog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-resolution: 2dppx) {
+  .section--background-color {
+    background-image: url(../images/catalog.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section--background-color {
+    width: 100%;
+    background-image: url(../images/catalog.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .section--background-color {
+    background-image: url(../images/catalog.png);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section--background-color {
+    width: 100%;
+    background-image: url(../images/catalog.png);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section--background-color {
+    background-image: url(../images/catalog.png);
+  }
 }
 
 .team__list {
@@ -1940,6 +1976,7 @@ body {
 @media screen and (min-width: 1200px) {
   .team__list {
     flex-wrap: nowrap;
+    padding-top: 50px;
   }
 }
 
@@ -1990,7 +2027,7 @@ body {
 }
 
 .footer {
-  background: var(--main-site-section);
+  background: black;
   padding: 60px 0;
 }
 
