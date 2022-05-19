@@ -282,6 +282,7 @@ summary {
   --function: cubic-bezier(0.4, 0, 0.2, 1);
   --about-text-bgc: rgba(47, 48, 58, 0.8);
   --overlay-card-color: rgba(33, 150, 243, 0.9);
+  --cards-price-color: #7594C2;
 }
 
 .visually-hidden {
@@ -721,6 +722,27 @@ body {
   color: var(--second-title-color);
 }
 
+.heading__team2 {
+  margin: 0 0 50px 0;
+  font-family: 'Nunito';
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.heading__team3 {
+  margin: 0 0 50px 0;
+  font-family: 'Nunito';
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--second-title-color);
+  padding-top: 50px;
+}
+
 .card__content {
   padding: 30px 32px;
 }
@@ -737,11 +759,12 @@ body {
 
 .card__text {
   font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--first-text-color);
+  color: var(--cards-price-color);
   margin-bottom: 16px;
 }
 
@@ -1828,6 +1851,10 @@ body {
   padding-top: 44px;
 }
 
+.feature__content2 {
+  display: block;
+}
+
 .feature__list0 {
   list-style: none;
 }
@@ -1868,6 +1895,42 @@ body {
   letter-spacing: 0.06em;
   color: #000000;
   padding-left: 70px;
+}
+
+.feature__p3 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  letter-spacing: 0.06em;
+  color: #000000;
+  padding-right: 90px;
+}
+
+.feature__p4 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.feature__list01 {
+  list-style: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__list01 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .section--no-padding-top {

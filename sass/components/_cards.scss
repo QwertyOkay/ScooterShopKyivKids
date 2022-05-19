@@ -15,11 +15,12 @@
   
   .card__text {
     font-weight: normal;
-    font-size: 16px;
+      font-weight: 600;
+      font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
+    color: var(--cards-price-color);
     margin-bottom: 16px;
   }
 

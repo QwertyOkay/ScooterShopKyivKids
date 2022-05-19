@@ -153,6 +153,12 @@
               padding-top: 44px;
               // justify-items: center;
             }
+
+                        .feature__content2 {
+                          display: block;
+                          // padding-top: 44px;
+                          // justify-items: center;
+                        }
             
             .feature__list0 {
               list-style: none;
@@ -196,3 +202,47 @@
                                                     color: #000000;
                                                     padding-left: 70px;
                                                 }
+
+                                                                                                .feature__p3 {
+                                                                                                  // width: 670px;
+                                                                                                  // height: 540px;
+                                                
+                                                                                                  font-family: 'Nunito';
+                                                                                                  font-style: normal;
+                                                                                                  font-weight: 400;
+                                                                                                  font-size: 20px;
+                                                                                                  line-height: 25px;
+                                                                                                  /* or 125% */
+                                                                                                  letter-spacing: 0.06em;
+                                                                                                  color: #000000;
+                                                                                                  padding-right: 90px;
+                                                                                                }
+
+
+                                                                                                                                                                                                .feature__p4 {
+                                                                                                                                                                                                  // width: 670px;
+                                                                                                                                                                                                  // height: 540px;
+                                                                                                
+                                                                                                                                                                                                  font-family: 'Nunito';
+                                                                                                                                                                                                  font-style: normal;
+                                                                                                                                                                                                  font-weight: 400;
+                                                                                                                                                                                                  font-size: 20px;
+                                                                                                                                                                                                  line-height: 25px;
+                                                                                                                                                                                                  /* or 125% */
+                                                                                                                                                                                                  letter-spacing: 0.06em;
+                                                                                                                                                                                                  color: #000000;
+                                                                                                                                                                                                  // padding-right: 70px;
+                                                                                                                                                                                                }
+
+                                                                                                .feature__list01 {
+                                                                                                  list-style: none;
+                                                                                                  
+                                                                                                  
+                                                                                                    @media screen and (min-width: 1200px) {
+                                                                                                      display: flex;
+                                                                                                      flex-wrap: nowrap;
+                                                                                                      justify-content: center;
+                                                                                                      align-items: center;
+                                                                                                      // padding-bottom: 95px;
+                                                                                                    }
+                                                                                                }
