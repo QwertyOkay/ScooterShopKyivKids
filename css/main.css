@@ -472,6 +472,7 @@ body {
 @media screen and (min-width: 1200px) {
   .contacts__link-tel {
     padding: 32px 0;
+    font-size: 14px;
   }
 }
 
@@ -1854,8 +1855,19 @@ body {
   padding-top: 44px;
 }
 
-.feature__content2 {
-  display: block;
+@media screen and (min-width: 768px) {
+  .feature__content2 {
+    display: block;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__content2 {
+    display: block;
+  }
 }
 
 .feature__list0 {
@@ -1872,32 +1884,90 @@ body {
   }
 }
 
-.feature__p {
-  width: 670px;
-  height: 540px;
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  /* or 125% */
-  letter-spacing: 0.06em;
-  color: #000000;
-  padding-right: 70px;
+@media screen and (min-width: 768px) {
+  .feature__p {
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
 }
 
-.feature__p2 {
-  width: 670px;
-  height: 540px;
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  /* or 125% */
-  letter-spacing: 0.06em;
-  color: #000000;
-  padding-left: 70px;
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .feature__p {
+    width: 670px;
+    height: 540px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .scooterfeatures {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .scooterfeatures {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .girlfeatures {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .girlfeatures {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature__p2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-bottom: 130px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__p2 {
+    width: 670px;
+    height: 540px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-left: 70px;
+  }
 }
 
 .feature__p3 {
@@ -1912,22 +1982,49 @@ body {
   padding-right: 90px;
 }
 
-.feature__p4 {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  /* or 125% */
-  letter-spacing: 0.06em;
-  color: #000000;
+@media screen and (min-width: 768px) {
+  .feature__p4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__p4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
 }
 
 .feature__list01 {
   list-style: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .feature__list01 {
+    display: block;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .feature__list01 {
     display: flex;
     flex-wrap: nowrap;
@@ -2202,21 +2299,11 @@ body {
   margin-top: 0em;
 }
 
-.footer-tablet {
-  margin-bottom: 60px;
-}
-
 @media screen and (min-width: 768px) {
   .footer-tablet {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-tablet {
-    margin-bottom: 0;
   }
 }
 
