@@ -259,7 +259,7 @@ summary {
 }
 
 :root {
-  --current-font: Rounded Mplus 1c,
+  --current-font: Nunito,
       sans-serif;
   --logo-font: Rounded Mplus 1c,
       sans-serif;
@@ -329,13 +329,13 @@ img {
 }
 
 body {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: Nunito, sans-serif;
   color: #757575;
   background-color: white;
 }
 
 body {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: Nunito, sans-serif;
   color: #757575;
   background-color: white;
 }
@@ -759,8 +759,8 @@ body {
 
 .card__text {
   font-weight: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1667,7 +1667,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero__title {
-    font-size: 44px;
+    font-size: 48px;
     line-height: 1.36;
   }
 }
@@ -1740,7 +1740,7 @@ body {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1761,7 +1761,7 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
