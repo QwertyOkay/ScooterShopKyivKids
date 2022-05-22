@@ -100,7 +100,7 @@
   }
 
     .feature {
-      @media screen and (min-width: 480px) {
+      @media screen and (min-width: 320px) {
       background-color: white;
         // height: 400px;
         margin: 0 auto;
@@ -150,8 +150,7 @@
         }
       
         @media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-          background-image:
-            url(../images/back.png);
+          background-image: url(../images/back.png);
         background-color: #E9F2FF;
         }
       
@@ -161,7 +160,7 @@
 
             .feature__content {
 
-              @media screen and (min-width: 480px) {
+              @media screen and (min-width: 320px) {
                 // padding-top: 0px;
               }
               display: block;
@@ -171,8 +170,21 @@
 
                         .feature__content2 {
 
+                          @media screen and (min-width: 320px) {
+                            display: flex;
+                              flex-direction: row;
+                              justify-content: flex-start;
+                              padding-bottom: 30px;
+                              justify-content: center;
+                              align-items: center;
+                              // padding-left: 20px;
+                          }
+
                         @media screen and (min-width: 768px) {
-                          display: block;
+
+                        display: flex;
+                          flex-direction: row;
+                          justify-content: flex-start;
                           padding-bottom: 30px;
                           justify-content: center;
                           align-items: center;
@@ -202,7 +214,7 @@
 
                         .feature__p {
 
-                          @media screen and (min-width: 480px) {
+                          @media screen and (min-width: 320px) {
                               width: 100%;
                               font-family: 'Nunito';
                               font-style: normal;
@@ -248,7 +260,7 @@
                       }
 
                       .scooterfeatures {
-                        @media screen and (min-width: 480px) {
+                        @media screen and (min-width: 320px)  {
                             margin-right: 0px;
                             padding-right: 0px;
                             padding-bottom: 20px;
@@ -268,7 +280,7 @@
 
                     .girlfeatures {
 
-                      @media screen and (min-width: 480px) {
+                      @media screen and (min-width: 320px) {
                           margin-right: 0px;
                           padding-right: 0px;
                           padding-bottom: 20px;
@@ -285,7 +297,7 @@
                         }
                     }
                                                 .feature__p2 {
-                                                  @media screen and (min-width: 480px) {
+                                                  @media screen and (min-width: 320px) {
                                                       width: 100%;
                                                       font-family: 'Nunito';
                                                       font-style: normal;
@@ -334,9 +346,45 @@
                                               }
 
                                                                                                 .feature__p3 {
+
+                                                                                                  @media screen and (min-width: 320px) {
+                                                                                                      width: 100%;
+                                                                                                      font-family: 'Nunito';
+                                                                                                      font-style: normal;
+                                                                                                      font-weight: 400;
+                                                                                                      font-size: 16px;
+                                                                                                      line-height: 25px;
+                                                                                                      /* or 125% */
+                                                                                                      letter-spacing: 0.06em;
+                                                                                                      color: #000000;
+                                                                                                      padding-right: 0px;
+                                                                                                      // padding-bottom: 30px;
+                                                                                                      padding-top: 0px;
+                                                                                                      padding-bottom: 30px;
+                                                                                                    }
+
+                                                                                                     @media screen and (min-width: 768px) {
+                                                                                                      // width: 100%;
+                                                                                                      display: flex;
+                                                                                                        flex-direction: row;
+                                                                                                        justify-content: flex-start;
+                                                                                                      font-family: 'Nunito';
+                                                                                                      font-style: normal;
+                                                                                                      font-weight: 400;
+                                                                                                      font-size: 16px;
+                                                                                                      line-height: 25px;
+                                                                                                      /* or 125% */
+                                                                                                      letter-spacing: 0.06em;
+                                                                                                      color: #000000;
+                                                                                                      padding-right: 100px;
+                                                                                                      // padding-bottom: 30px;
+                                                                                                      padding-top: 0px;
+                                                                                                      padding-bottom: 30px;
+                                                                                                    }
+
                                                                                                   // width: 670px;
                                                                                                   // height: 540px;
-                                                
+                                                                                                @media screen and (min-width: 1200px) {
                                                                                                   font-family: 'Nunito';
                                                                                                   font-style: normal;
                                                                                                   font-weight: 400;
@@ -346,49 +394,68 @@
                                                                                                   letter-spacing: 0.06em;
                                                                                                   color: #000000;
                                                                                                   padding-right: 90px;
+                                                                                                  padding-bottom: 0px;
                                                                                                 }
+                                                                                              }
 
 
-                                                                                                                                                                                                .feature__p4 {
-                                                                                                                                                                                                  @media screen and (min-width: 768px) {
-                                                                                                                                                                                                  // width: 670px;
-                                                                                                                                                                                                  // height: 540px;
-                                                                                                
-                                                                                                                                                                                                  font-family: 'Nunito';
-                                                                                                                                                                                                  font-style: normal;
-                                                                                                                                                                                                  font-weight: 400;
-                                                                                                                                                                                                  font-size: 20px;
-                                                                                                                                                                                                  line-height: 25px;
-                                                                                                                                                                                                  /* or 125% */
-                                                                                                                                                                                                  letter-spacing: 0.06em;
-                                                                                                                                                                                                  color: #000000;
-                                                                                                                                                                                                  // padding-right: 70px;
-                                                                                                                                                                                                }
+              .feature__p4 {
+                @media screen and (min-width: 320px) {
+                     width: 100%;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: 0.06em;
+                    color: #000000;
+                    padding-right: 0px;
+                    padding-bottom: 30px;
+                    // padding-top: 0px;
+                  }
 
-                                                                                                                                                                                                 @media screen and (min-width: 1200px) {
-                                                                                                                                                                                                  // width: 670px;
-                                                                                                                                                                                                    // height: 540px;
-                                                                                                                                                                                                    display: flex;
-                                                                                                                                                                                                    justify-content: center;
-                                                                                                                                                                                                    align-items: center;
-                                                                                                                                                                                                    font-family: 'Nunito';
-                                                                                                                                                                                                    font-style: normal;
-                                                                                                                                                                                                    font-weight: 400;
-                                                                                                                                                                                                    font-size: 20px;
-                                                                                                                                                                                                    line-height: 25px;
-                                                                                                                                                                                                    /* or 125% */
-                                                                                                                                                                                                    letter-spacing: 0.06em;
-                                                                                                                                                                                                    color: #000000;
-                                                                                                                                                                                                    // padding-right: 70px;
-                                                                                                                                                                                              }
-                                                                                                                                                                                            }
+                 @media screen and (min-width: 768px) {
+                display: flex;
+                  flex-direction: row;
+                  justify-content: flex-start;
+                 font-family: 'Nunito';
+                 font-style: normal;
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 25px;
+                 /* or 125% */
+                 letter-spacing: 0.06em;
+                color: #000000;
+                 // padding-right: 70px;
+               }
+
+                @media screen and (min-width: 1200px) {
+                // width: 670px;
+                  // height: 540px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-family: 'Nunito';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 25px;
+                  /* or 125% */
+                  letter-spacing: 0.06em;
+                  color: #000000;
+                  // padding-right: 70px;
+                  padding-bottom: 0px;
+            }
+           }
 
                                                                                                 .feature__list01 {
                                                                                                   list-style: none;
                                                                                                   
                                                                                                   @media screen and (min-width: 768px) {
-                                                                                                      display: block;
-                                                                                                      padding-bottom: 30px;
+                                                                                                      display: flex;
+                                                                                                        flex-direction: row;
+                                                                                                        justify-content: flex-start;
+                                                                                                      // padding-bottom: 30px;
                                                                                                       justify-content: center;
                                                                                                       align-items: center;
 

@@ -712,7 +712,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .heading__about,
   .heading__team {
     font-weight: 700;
@@ -745,6 +745,18 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--second-title-color);
+}
+
+@media screen and (min-width: 320px) {
+  .heading__team2 {
+    margin-top: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--second-title-color);
+  }
 }
 
 .heading__team3 {
@@ -1815,7 +1827,7 @@ body {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .feature {
     background-color: white;
     margin: 0 auto;
@@ -1883,9 +1895,22 @@ body {
   padding-top: 44px;
 }
 
+@media screen and (min-width: 320px) {
+  .feature__content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .feature__content2 {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     padding-bottom: 30px;
     justify-content: center;
     align-items: center;
@@ -1912,7 +1937,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .feature__p {
     width: 100%;
     font-family: 'Nunito';
@@ -1961,7 +1986,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .scooterfeatures {
     margin-right: 0px;
     padding-right: 0px;
@@ -1983,7 +2008,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .girlfeatures {
     margin-right: 0px;
     padding-right: 0px;
@@ -2005,7 +2030,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .feature__p2 {
     width: 100%;
     font-family: 'Nunito';
@@ -2052,24 +2077,81 @@ body {
   }
 }
 
-.feature__p3 {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  /* or 125% */
-  letter-spacing: 0.06em;
-  color: #000000;
-  padding-right: 90px;
+@media screen and (min-width: 320px) {
+  .feature__p3 {
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .feature__p4 {
+  .feature__p3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__p3 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 90px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .feature__p4 {
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature__p4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 25px;
     /* or 125% */
     letter-spacing: 0.06em;
@@ -2090,6 +2172,7 @@ body {
     /* or 125% */
     letter-spacing: 0.06em;
     color: #000000;
+    padding-bottom: 0px;
   }
 }
 
@@ -2099,8 +2182,9 @@ body {
 
 @media screen and (min-width: 768px) {
   .feature__list01 {
-    display: block;
-    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     justify-content: center;
     align-items: center;
   }
@@ -2211,18 +2295,24 @@ body {
   list-style: none;
 }
 
+@media screen and (min-width: 320px) {
+  .team__list {
+    margin-top: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team__list {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+    margin-top: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team__list {
     flex-wrap: nowrap;
-    padding-top: 50px;
   }
 }
 
