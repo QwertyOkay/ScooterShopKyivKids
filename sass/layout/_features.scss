@@ -100,19 +100,28 @@
   }
 
     .feature {
+      @media screen and (min-width: 480px) {
       background-color: white;
         // height: 400px;
         margin: 0 auto;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-          url(../images/hero-bg-mob-1x.jpg);
+        background-image: url(../images/back.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #E9F2FF;
+      }
       
+      @media screen and (min-width: 1200px) {
+      background-color: white;
+        // height: 400px;
+        margin: 0 auto;
+        background-image: url(../images/back.png);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 94px 0;
+        background-color: #E9F2FF;
       
         @media (min-resolution: 2dppx) {
-          background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/hero-bg-mob-2x.jpg);
+          background-image: url(../images/back.png);
         }
       
         @media screen and (min-width: 768px) {
@@ -148,8 +157,13 @@
       
         background-position: center;
       }
+    }
 
             .feature__content {
+
+              @media screen and (min-width: 480px) {
+                // padding-top: 0px;
+              }
               display: block;
               padding-top: 44px;
               // justify-items: center;
@@ -187,6 +201,22 @@
                         }
 
                         .feature__p {
+
+                          @media screen and (min-width: 480px) {
+                              width: 100%;
+                              font-family: 'Nunito';
+                              font-style: normal;
+                              font-weight: 400;
+                              font-size: 16px;
+                              line-height: 25px;
+                              /* or 125% */
+                              letter-spacing: 0.06em;
+                              color: #000000;
+                              padding-right: 0px;
+                              padding-bottom: 30px;
+                              padding-top: 0px;
+                          }
+
                             @media screen and (min-width: 768px) {
                                 width: 100%;
                                   font-family: 'Nunito';
@@ -218,6 +248,14 @@
                       }
 
                       .scooterfeatures {
+                        @media screen and (min-width: 480px) {
+                            margin-right: 0px;
+                            padding-right: 0px;
+                            padding-bottom: 20px;
+                            display: block;
+                            margin: 0 auto;
+                          }
+
                         @media screen and (min-width: 768px) {
                           padding-bottom: 30px;
                       }
@@ -229,6 +267,15 @@
 
 
                     .girlfeatures {
+
+                      @media screen and (min-width: 480px) {
+                          margin-right: 0px;
+                          padding-right: 0px;
+                          padding-bottom: 20px;
+                          display: block;
+                          margin: 0 auto;
+                        }
+
                       @media screen and (min-width: 768px) {
                           padding-bottom: 30px;
                         }
@@ -238,6 +285,22 @@
                         }
                     }
                                                 .feature__p2 {
+                                                  @media screen and (min-width: 480px) {
+                                                      width: 100%;
+                                                      font-family: 'Nunito';
+                                                      font-style: normal;
+                                                      font-weight: 400;
+                                                      font-size: 16px;
+                                                      line-height: 25px;
+                                                      /* or 125% */
+                                                      letter-spacing: 0.06em;
+                                                      color: #000000;
+                                                      padding-right: 0px;
+                                                      padding-bottom: 30px;
+                                                      padding-top: 0px;
+                                                    }
+
+
                                                   @media screen and (min-width: 768px) {
                                                   // width: 670px;
                                                     // height: 540px;
@@ -334,7 +397,7 @@
                                                                                                       flex-wrap: nowrap;
                                                                                                       justify-content: center;
                                                                                                       align-items: center;
-                                                                                                      // padding-bottom: 95px;
+                                                                                                      padding-bottom: 0px;
                                                                                                     }
                                                                                                 }
                                                                                               }

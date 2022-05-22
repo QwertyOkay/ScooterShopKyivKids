@@ -712,15 +712,29 @@ body {
   }
 }
 
-.heading__about,
-.heading__team {
-  margin: 0 0 50px 0;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--second-title-color);
+@media screen and (min-width: 480px) {
+  .heading__about,
+  .heading__team {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--second-title-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .heading__about,
+  .heading__team {
+    margin: 0 0 50px 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--second-title-color);
+  }
 }
 
 .heading__team2 {
@@ -1801,23 +1815,37 @@ body {
   fill: currentColor;
 }
 
-.feature {
-  background-color: white;
-  margin: 0 auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-1x.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 94px 0;
-  background-position: center;
-}
-
-@media (min-resolution: 2dppx) {
+@media screen and (min-width: 480px) {
   .feature {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-2x.jpg);
+    background-color: white;
+    margin: 0 auto;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E9F2FF;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  .feature {
+    background-color: white;
+    margin: 0 auto;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 94px 0;
+    background-color: #E9F2FF;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .feature {
+    background-image: url(../images/back.png);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-width: 768px) {
   .feature {
     width: 100%;
     background-image: url(../images/back.png);
@@ -1827,13 +1855,13 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-width: 768px) and (min-resolution: 2dppx) {
   .feature {
     background-image: url(../images/back.png);
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
   .feature {
     width: 100%;
     min-height: 600px;
@@ -1843,7 +1871,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-width: 1200px) and (min-resolution: 2dppx) {
   .feature {
     background-image: url(../images/back.png);
     background-color: #E9F2FF;
@@ -1884,6 +1912,23 @@ body {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .feature__p {
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .feature__p {
     width: 100%;
@@ -1916,6 +1961,16 @@ body {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .scooterfeatures {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .scooterfeatures {
     padding-bottom: 30px;
@@ -1928,6 +1983,16 @@ body {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .girlfeatures {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .girlfeatures {
     padding-bottom: 30px;
@@ -1937,6 +2002,23 @@ body {
 @media screen and (min-width: 1200px) {
   .girlfeatures {
     padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .feature__p2 {
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-top: 0px;
   }
 }
 
@@ -2030,6 +2112,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 0px;
   }
 }
 
