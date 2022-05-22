@@ -767,7 +767,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--second-title-color);
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 .card__content {
@@ -1920,6 +1920,7 @@ body {
 @media screen and (min-width: 1200px) {
   .feature__content2 {
     display: block;
+    padding-bottom: 0px;
   }
 }
 
