@@ -2483,6 +2483,11 @@ body {
   }
 }
 
+.disqus-footer__wrapper,
+.disqus-footer__wrapper {
+  display: none;
+}
+
 .filter__list {
   display: flex;
   flex-wrap: wrap;
