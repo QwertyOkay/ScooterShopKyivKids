@@ -466,6 +466,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts__link-tel {
     font-size: 12px;
+    display: none;
   }
 }
 
