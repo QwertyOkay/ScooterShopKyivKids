@@ -2483,9 +2483,16 @@ body {
   }
 }
 
-.disqus-footer__wrapper,
-.disqus-footer__wrapper {
+.disqus-footer {
   display: none;
+}
+
+.disqus-footer__link {
+  display: none;
+}
+
+.disqus {
+  background-color: #E9F2FF;
 }
 
 .filter__list {
