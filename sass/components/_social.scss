@@ -11,10 +11,10 @@
   }
   
   .social__item {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 10px;
     margin-left: 10px;
-    margin-top: 15px;
+    // margin-top: 15px;
   }
   
   .social__item:first-child {
@@ -41,7 +41,7 @@
     &:hover,
     &:focus {
       color: #ffffff;
-      background-color: #2196f3;
+      background-color: #d4f321;
     }
   }
 
