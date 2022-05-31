@@ -282,7 +282,7 @@ summary {
   --function: cubic-bezier(0.4, 0, 0.2, 1);
   --about-text-bgc: rgba(47, 48, 58, 0.8);
   --overlay-card-color: rgba(33, 150, 243, 0.9);
-  --cards-price-color: #7594C2;
+  --cards-price-color: #005fb6;
 }
 
 .visually-hidden {
@@ -431,7 +431,7 @@ body {
 }
 
 .contacts__icon:hover, .contacts__icon:focus {
-  fill: #7594C2;
+  fill: #005fb6;
 }
 
 .contacts__link {
@@ -444,7 +444,7 @@ body {
 }
 
 .contacts__link:hover, .contacts__link:focus {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 @media screen and (min-width: 768px) {
@@ -533,7 +533,7 @@ body {
 }
 
 .btn:hover, .btn:focus {
-  background-color: #7594C2;
+  background-color: #005fb6;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -560,7 +560,7 @@ body {
 }
 
 .button__modal:focus, .button__modal:hover {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .button__hero {
@@ -587,7 +587,7 @@ body {
 
 .button__hero:hover {
   color: white;
-  background-color: #7594C2;
+  background-color: #005fb6;
 }
 
 .button__hero:focus {
@@ -625,7 +625,7 @@ body {
 }
 
 .button__filter:hover, .button__filter:focus {
-  background-color: #7594C2;
+  background-color: #005fb6;
   color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -637,7 +637,7 @@ body {
 }
 
 .button__filter--current {
-  background-color: #7594C2;
+  background-color: #005fb6;
   color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -660,7 +660,7 @@ body {
 }
 
 .button__open-menu:hover, .button__open-menu:focus {
-  fill: #7594C2;
+  fill: #005fb6;
 }
 
 @media screen and (min-width: 768px) {
@@ -785,6 +785,54 @@ body {
   padding-top: 70px;
 }
 
+@media screen and (min-width: 320px) {
+  .heading__team5 {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #005fb6;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .heading__team5 {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #005fb6;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .heading__team6 {
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #005fb6;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .heading__team6 {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #005fb6;
+  }
+}
+
 .card__content {
   padding: 30px 32px;
 }
@@ -792,7 +840,7 @@ body {
 .card__title {
   margin-bottom: 10px;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -802,7 +850,7 @@ body {
 .card__text {
   font-weight: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1128,11 +1176,11 @@ body {
 }
 
 .mob-menu__link:hover, .mob-menu__link:focus {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .current-mob {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .mob-menu__close-button {
@@ -1150,7 +1198,7 @@ body {
 }
 
 .mob-menu__close-button:focus, .mob-menu__close-button:hover {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .mob-menu-contacts {
@@ -1163,7 +1211,7 @@ body {
   font-size: 27px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #7594C2;
+  color: #005fb6;
 }
 
 @media screen and (min-width: 480px) {
@@ -1226,7 +1274,7 @@ body {
 
 .mob-menu-social .mob-menu-social__link {
   text-decoration: none;
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .modal__backdrop {
@@ -1357,7 +1405,7 @@ body {
 }
 
 .modal__input:focus {
-  border-color: #7594C2;
+  border-color: #005fb6;
 }
 
 .modal__input:focus + .icon__modal-img {
@@ -1394,7 +1442,7 @@ body {
 }
 
 .modal__area:focus {
-  border-color: #7594C2;
+  border-color: #005fb6;
 }
 
 .modal__area::placeholder {
@@ -1616,11 +1664,11 @@ body {
 }
 
 .navigation__link:hover, .navigation__link:focus {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .navigation__link--current {
-  color: #7594C2;
+  color: #005fb6;
   position: relative;
   font-style: normal;
   font-weight: 600;
@@ -1634,7 +1682,7 @@ body {
   content: '';
   width: 100%;
   height: 4px;
-  background-color: #7594C2;
+  background-color: #005fb6;
   border-radius: 2px;
   position: absolute;
   left: 0;
@@ -1801,7 +1849,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-weight: normal;
+  font-weight: 800;
   font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1957,7 +2005,7 @@ body {
     width: 100%;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     /* or 125% */
@@ -1974,7 +2022,7 @@ body {
     width: 100%;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     /* or 125% */
@@ -2050,7 +2098,7 @@ body {
     width: 100%;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     /* or 125% */
@@ -2066,7 +2114,7 @@ body {
   .feature__p2 {
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     /* or 125% */
@@ -2097,7 +2145,7 @@ body {
     width: 100%;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     /* or 125% */
@@ -2116,7 +2164,7 @@ body {
     justify-content: flex-start;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     /* or 125% */
@@ -2147,7 +2195,7 @@ body {
     width: 100%;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.06em;
@@ -2164,7 +2212,7 @@ body {
     justify-content: flex-start;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     /* or 125% */
@@ -2372,7 +2420,7 @@ body {
 
 .clients__link:hover, .clients__link:focus {
   border: 1px solid var(--accent-color);
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .footer {
@@ -2473,7 +2521,7 @@ body {
 }
 
 .footer__link:hover, .footer__link:focus {
-  color: #7594C2;
+  color: #005fb6;
 }
 
 .footer__item {
