@@ -833,6 +833,10 @@ body {
   }
 }
 
+.heading__yellow {
+  color: #fed204;
+}
+
 .card__content {
   padding: 30px 32px;
 }
