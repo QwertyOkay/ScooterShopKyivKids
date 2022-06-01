@@ -1347,6 +1347,39 @@
     <!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
             Disqus.</a></noscript> -->
 
+            <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+            
+            <script>
+                window.renderOptIn = function () {
+                    window.gapi.load('surveyoptin', function () {
+                        window.gapi.surveyoptin.render(
+                            {
+                                // REQUIRED FIELDS
+                                "merchant_id": 571325300,
+                                "order_id": "ORDER_ID",
+                                "email": "CUSTOMER_EMAIL",
+                                "delivery_country": "COUNTRY_CODE",
+                                "estimated_delivery_date": "YYYY-MM-DD",
+
+                                // OPTIONAL FIELDS
+                                "products": [{ "gtin": "GTIN1" }, { "gtin": "GTIN2" }]
+                            });
+                    });
+                }
+            </script>
+
+            <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
+            
+            <script>
+                window.renderBadge = function () {
+                    var ratingBadgeContainer = document.createElement("div");
+                    document.body.appendChild(ratingBadgeContainer);
+                    window.gapi.load('ratingbadge', function () {
+                        window.gapi.ratingbadge.render(ratingBadgeContainer, { "merchant_id": 571325300 });
+                    });
+                }
+            </script>
+
 <footer class="footer" id="contacts">
     <div class="footer__container container">
         <div class="footer-tablet">
