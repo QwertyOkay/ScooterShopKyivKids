@@ -2265,6 +2265,19 @@ body {
   }
 }
 
+.text__feature-1 {
+  color: #ff473e;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  max-width: 450px;
+  min-width: 260px;
+}
+
 .section--no-padding-top {
   padding-top: 0;
   display: none;
