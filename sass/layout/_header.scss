@@ -22,3 +22,22 @@
   background-color: white;
   width: 100%;
 }
+
+.header__promo {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #14aaffed;
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header__img-arow {
+  height: 12px;
+  width: 12px;
+  // color: #fff;
+  margin-left: 5px;
+}
