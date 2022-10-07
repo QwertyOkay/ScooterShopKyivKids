@@ -1504,6 +1504,12 @@ body {
   transform: translatey(0);
 }
 
+.shoes__main {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+}
+
 .header {
   border-bottom: 1px solid var(--line-color);
   width: 100%;
@@ -1734,6 +1740,7 @@ body {
   list-style: none;
 }
 .feature__list li {
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 .feature__list li:last-child {
@@ -2033,6 +2040,7 @@ body {
     padding-right: 0px;
     padding-bottom: 30px;
     padding-top: 0px;
+    margin-top: 50px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2273,6 +2281,41 @@ body {
 @media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section--background-color {
     background-image: url(../images/catalog.png);
+  }
+}
+
+.section--background-color2 {
+  background-color: #E9F2FF;
+  background-image: url(../images/shoes/hero-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-resolution: 2dppx) {
+  .section--background-color2 {
+    background-image: url(../images/shoes/hero-3.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .section--background-color2 {
+    width: 100%;
+    background-image: url(../images/shoes/hero-3.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .section--background-color2 {
+    background-image: url(../images/shoes/hero-3.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section--background-color2 {
+    width: 100%;
+    background-image: url(../images/shoes/hero-3.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section--background-color2 {
+    background-image: url(../images/shoes/hero-3.jpg);
   }
 }
 
